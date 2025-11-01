@@ -1,151 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madrid is the capital of Spain</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Course Landing — Figma Rebuild</title>
+
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+  <div class="wrap" role="main">
+    <header class="hero">
+      <div class="hero-left">
+        <div class="eyebrow">Let's Begins</div>
+        <h1>Let's Find The<br>Right <span class="highlight">Course</span> For<br>you</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Etiam dignissim, sem non convallis molestie.</p>
+        <div class="cta">
+          <button class="btn primary">Register</button>
+          <button class="btn ghost"><i class="fa-solid fa-play"></i> Play Video</button>
+        </div>
+      </div>
 
-     <h1 id="top">Madrid _ is the capital of Spain</h1>
- <a href="#City Description:">City Description:</a><br />
- <a href="#Famous Places in Madrid">Famous Places in Madrid</a><br />
- <a href="#Famous Foods in Madrid">Famous Foods in Madrid</a><br /><br />
- <a href="#highest and lowest temperatures in Madrid">highest and lowest temperatures in Madrid</a><br /><br />
-  </header>
-  <hr>
-<main>
-    <h2 id="City Description:">City Description:
-</h2>
-<p>Madrid is <b>the capital </b>
-    and <mark> largest city of Spain</mark>, located in the center of the country.
-     It is one of the most important cultural and tourist centers in Europe. The city is 
-     famous for its lively atmosphere, beautiful streets, and buildings that combine 
-     tradition and modernity. Life in Madrid is always full of energy, both day and night,
-      <u>and it is known for its friendly people who love music and celebrations.</u></p>
-</main>
-<hr>
-<section1>
-    <h2 id="Famous Places in Madrid">Famous Places in Madrid:</h2>
-    <ul>
-        <li> <strong>Royal Palace:</strong>  One of the largest royal palaces in Europe, showing the beauty of Spanish architecture.</li>
-        <li> <strong>Puerta del Sol: </strong> One of the most famous squares in Madrid and the center of many celebrations.</li>
-        <li> <strong>Plaza Mayor:</strong> A historic square surrounded by cafés and restaurants, loved by tourists.</li>
-        <li> <strong>Prado Museum:</strong> One of the most important art museums in the world, featuring works by artists like Velázquez and Goya.</li>
-        <li> <strong>Reina Sofía Museum:</strong> Contains modern artworks, including Picasso’s famous painting “Guernica.”</li>
-        <li> <strong>Santiago Bernabéu Stadium:</strong> The home of Real Madrid and one of the world’s most iconic sports landmarks.</li>
-    </ul>
-    <img src="New folder/Plaza Mayor.jpg" alt="Royal Palace" width="250" height="300">
-     <img src="New folder/Puerta del Sol.jpg" alt="my photo" width="250" height="300">
-     <img src="New folder/Royal Palace.jpg" alt="my photo" width="250" height="300">
-     <br>
-     <img src="New folder/Prado Museum" alt="my photo" width="250" height="300">
-     <img src="New folder/Reina Sofía Museum" alt="my photo" width="250" height="300">
-     <img src="New folder/Santiago Bernabéu" alt="my photo" width="250" height="300">
+      <div class="hero-right">
+        <div class="dot p1"></div>
+        <div class="dot p2"></div>
+        <div class="dot p3"></div>
 
-</section1>
-<hr>
-<section2>
-    <h2 id="Famous Foods in Madrid">Famous Foods in Madrid</h2>
-    <ul>
-        <li> <strong>Tapas:</strong> A variety of small dishes served in cafés and restaurants.</li>
-        <li> <strong>Paella:</strong> A famous rice dish made with seafood, chicken, and vegetables.</li>
-        <li> <strong>Cocido Madrileño: </strong>A traditional stew made of chickpeas, meat, and vegetables.</li>
-        <li> <strong>Churros con Chocolate:</strong> A delicious dessert served with hot chocolate, popular for breakfast.</li>
-    </ul>
-    <img src="New folder/Tapas.jpg" alt="my photo" width="350" height="450">
-    <img src="New folder/Paella" alt="my photo" width="350" height="450">
-    <br>
-    <img src="New folder/Cocido Madrileño.jpg" alt="my photo" width="350" height="450">
-    <img src="New folder/Churros con Chocolate.jpg" alt="my photo" width="350" height="450">
-<hr>
-</section2>
-<fieldset>
-    <legend> <h2>Book a Trip”</h2></legend>
-    <label> Usarname: <br>
-        <input type="text" name="usarname ">
-    </label>
-    <br>
-     <label>Mobile:<br />
- <input type="text" name="mobile" /></label><br />
-    <label>
-        Email : <br>
-        <input type="email" name="email">
-        <br>
+        <div class="circle-frame">
+          <img src="2c2d1a7dcbc9e6b9848ca9d08a133b3abffe46f0.png" alt="Hero person">
+        </div>
+      </div>
+    </header>
 
-    </label>
-     <label for="hear-about">
-      The place you want to go to?
-     </label><br>
-     <select name="referrer" id="hear-about">
-      <option value="google">Royal Palace</option>
-      <option value="friend">Puerta del Sol</option>
-      <option value="advert">antiago Bernabéu Stadium</option>
-      <option value="other">Other</option>
-     </select>
-     <br />
-    <input type="submit" value="Submit" />
-   </fieldset
-</fieldset>
-<hr>
-<h2>A video about Madrid 🎥🇪🇸</h2>
- <iframe width="1128" height="634" src="https://www.youtube.com/embed/CO2rkh2G9U4" title="مدينة مدريد عاصمة أسبانيا وجمالها" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- <hr>
- 
-     <audio controls autoplay>
- <source src="New folder/Spain_4K_Scenic_Relaxation_Film_With_Calming_MusicM4A_128K.m4a" />
- </audio>
-<hr>
-<h2 id="highest and lowest temperatures in Madrid">highest and lowest temperatures in Madrid</h2>
-<table width="400" cellpadding="10" cellspacing="5" border="1">
+    <section class="features">
+      <div class="left">
+        <div class="subhead">What we give</div>
+        <h2>What do You<br>Get From Us</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Etiam dignissim, sem non convallis molestie.</p>
+      </div>
 
-        <tr>
-            <th rowspan="2">Season</th>
-            <th colspan="2">temperatures</th>
-             
-        </tr>
+      <div class="cards">
+        <div class="card">
+          <div class="icon">👩‍🏫</div>
+          <h3>Professional Teacher</h3>
+          <p>Learn from expert instructors with years of experience.</p>
+        </div>
 
+        <div class="card">
+          <div class="icon">📜</div>
+          <h3>Course Certificate</h3>
+          <p>Get recognized with official certificates after completion.</p>
+        </div>
 
-        <tr>
-        
-            <th>Highest Average Temperature</th>
-            <th>Lowest Average Temperature</th>
+        <div class="card">
+          <div class="icon">💡</div>
+          <h3>Interesting learning</h3>
+          <p>Engaging lessons and hands-on projects to help you grow.</p>
+        </div>
+      </div>
+    </section>
 
-        </tr>
+    <section class="selected">
+      <div class="visual">
+        <div class="big-circle">
+          <img src="07db5538fd425b651e9e1c1bd650a20b0c6a7cfc.png" alt="Students">
+        </div>
+      </div>
 
+      <div class="meta">
+        <h4>Selected Course</h4>
+        <h3>People Taking Courses</h3>
+        <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Etiam dignissim, sem non convallis molestie.</p>
 
-        <tr>
-            <th>Winter (December–February)</th>
-            <td>Around 12 °C</td>
-            <td>Around 0 °C to 4 °C</td>
-        </tr>
-    
-    
-        <tr>
-            <th>Spring (March–May)</th>
-            <td>Around 22–25 °C</td>
-            <td>Around 5–10 °C</td>
+        <div class="metrics">
+          <div class="metric">
+            <div class="num">6,000</div>
+            <div class="label">People Views</div>
+          </div>
 
-        </tr>
-    
-    
-        <tr>
-            <th>Summer (June–August)</th>
-            <td>Around 33–34 °C, sometimes higher</td>
-            <td>Around 17–21 °C</td>
-        </tr>
+          <div class="metric">
+            <div class="num">4,000</div>
+            <div class="label">User</div>
+          </div>
 
-        <tr>
-            <th>Autumn (September–November)</th>
-            <td>Around 22–27 °C</td>
-            <td>Around 12–17 °C</td>
-        </tr>
-    
-</table>
-<hr>
- <p><a href="#top">Top</a></p>
-<hr>
-&copy;:2025 Madrid City Page — Created by keroles reda
+          <div class="metric">
+            <div class="num">100</div>
+            <div class="label">Course</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="signup-wrap">
+      <div class="signup-bar">
+        <div class="left">Sign up to comment, edit, inspect and more.</div>
+        <div class="actions">
+          <button class="btn primary small">Sign up</button>
+          <button class="btn white small">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
